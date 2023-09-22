@@ -1,0 +1,469 @@
+/* Coral */
+.bg-coral {
+    background-color: #ff6f61;
+}
+
+/* Lavender */
+.bg-lavender {
+    background-color: #b78fcb;
+}
+
+/* Mint Green */
+.bg-mint-green {
+    background-color: #98ff98;
+}
+
+/* Teal */
+.bg-teal {
+    background-color: #008080;
+}
+
+/* Orchid */
+.bg-orchid {
+    background-color: #da70d6;
+}
+
+/* Peach */
+.bg-peach {
+    background-color: #ffdab9;
+}
+
+/* Sky Blue */
+.bg-sky-blue {
+    background-color: #87ceeb;
+}
+
+/* Maroon */
+.bg-maroon {
+    background-color: #800000;
+}
+
+/* Moccasin */
+.bg-moccasin {
+    background-color: #ffe4b5;
+}
+
+/* Olive */
+.bg-olive {
+    background-color: #808000;
+}
+
+/* Lavender Blush */
+.bg-lavender-blush {
+    background-color: #fff0f5;
+}
+
+/* Pale Green */
+.bg-pale-green {
+    background-color: #98fb98;
+}
+
+/* Turquoise */
+.bg-turquoise {
+    background-color: #40e0d0;
+}
+
+/* Plum */
+.bg-plum {
+    background-color: #dda0dd;
+}
+
+/* Salmon */
+.bg-salmon {
+    background-color: #fa8072;
+}
+
+/* Indigo */
+.bg-indigo {
+    background-color: #4b0082;
+}
+
+/* Light Coral */
+.bg-light-coral {
+    background-color: #f08080;
+}
+
+/* Olive Drab */
+.bg-olive-drab {
+    background-color: #6b8e23;
+}
+
+/* Wheat */
+.bg-wheat {
+    background-color: #f5deb3;
+}
+
+/* Gold */
+.bg-gold {
+    background-color: #ffd700;
+}
+
+/* Dark Khaki */
+.bg-dark-khaki {
+    background-color: #bdb76b;
+}
+
+/* Medium Orchid */
+.bg-medium-orchid {
+    background-color: #ba55d3;
+}
+
+/* Pale Violet Red */
+.bg-pale-violet-red {
+    background-color: #db7093;
+}
+
+/* Medium Blue */
+.bg-medium-blue {
+    background-color: #0000cd;
+}
+
+/* Rosy Brown */
+.bg-rosy-brown {
+    background-color: #bc8f8f;
+}
+
+/* Light Pink */
+.bg-light-pink {
+    background-color: #ffb6c1;
+}
+
+/* Dark Turquoise */
+.bg-dark-turquoise {
+    background-color: #00ced1;
+}
+
+/* Thistle */
+.bg-thistle {
+    background-color: #d8bfd8;
+}
+
+/* Medium Spring Green */
+.bg-medium-spring-green {
+    background-color: #00fa9a;
+}
+
+/* Deep Pink */
+.bg-deep-pink {
+    background-color: #ff1493;
+}
+
+/* Dodger Blue */
+.bg-dodger-blue {
+    background-color: #1e90ff;
+}
+
+/* Medium Slate Blue */
+.bg-medium-slate-blue {
+    background-color: #7b68ee;
+}
+
+/* Pale Goldenrod */
+.bg-pale-goldenrod {
+    background-color: #eee8aa;
+}
+
+/* Dark Orchid */
+.bg-dark-orchid {
+    background-color: #9932cc;
+}
+
+/* Light Blue */
+.bg-light-blue {
+    background-color: #add8e6;
+}
+
+/* Light Goldenrod Yellow */
+.bg-light-goldenrod-yellow {
+    background-color: #fafad2;
+}
+
+/* Sea Green */
+.bg-sea-green {
+    background-color: #2e8b57;
+}
+
+/* Light Slate Gray */
+.bg-light-slate-gray {
+    background-color: #778899;
+}
+
+/* Lavender */
+.bg-lavender {
+    background-color: #b78fcb;
+}
+
+/* Medium Aquamarine */
+.bg-medium-aquamarine {
+    background-color: #66cdaa;
+}
+
+/* Light Steel Blue */
+.bg-light-steel-blue {
+    background-color: #b0c4de;
+}
+
+/* Pale Turquoise */
+.bg-pale-turquoise {
+    background-color: #afeeee;
+}
+
+/* Dark Salmon */
+.bg-dark-salmon {
+    background-color: #e9967a;
+}
+
+/* Yellow Green */
+.bg-yellow-green {
+    background-color: #9acd32;
+}
+
+/* Light Gray */
+.bg-light-gray {
+    background-color: #d3d3d3;
+}
+
+/* Dark Sea Green */
+.bg-dark-sea-green {
+    background-color: #8fbc8f;
+}
+
+/* Light Sky Blue */
+.bg-light-sky-blue {
+    background-color: #87cefa;
+}
+
+/* Coral */
+.text-coral {
+    color: #ff6f61;
+}
+
+/* Lavender */
+.text-lavender {
+    color: #b78fcb;
+}
+
+/* Mint Green */
+.text-mint-green {
+    color: #98ff98;
+}
+
+/* Teal */
+.text-teal {
+    color: #008080;
+}
+
+/* Orchid */
+.text-orchid {
+    color: #da70d6;
+}
+
+/* Peach */
+.text-peach {
+    color: #ffdab9;
+}
+
+/* Sky Blue */
+.text-sky-blue {
+    color: #87ceeb;
+}
+
+/* Maroon */
+.text-maroon {
+    color: #800000;
+}
+
+/* Moccasin */
+.text-moccasin {
+    color: #ffe4b5;
+}
+
+/* Olive */
+.text-olive {
+    color: #808000;
+}
+
+/* Lavender Blush */
+.text-lavender-blush {
+    color: #fff0f5;
+}
+
+/* Pale Green */
+.text-pale-green {
+    color: #98fb98;
+}
+
+/* Turquoise */
+.text-turquoise {
+    color: #40e0d0;
+}
+
+/* Plum */
+.text-plum {
+    color: #dda0dd;
+}
+
+/* Salmon */
+.text-salmon {
+    color: #fa8072;
+}
+
+/* Indigo */
+.text-indigo {
+    color: #4b0082;
+}
+
+/* Light Coral */
+.text-light-coral {
+    color: #f08080;
+}
+
+/* Olive Drab */
+.text-olive-drab {
+    color: #6b8e23;
+}
+
+/* Wheat */
+.text-wheat {
+    color: #f5deb3;
+}
+
+/* Gold */
+.text-gold {
+    color: #ffd700;
+}
+
+/* Dark Khaki */
+.text-dark-khaki {
+    color: #bdb76b;
+}
+
+/* Medium Orchid */
+.text-medium-orchid {
+    color: #ba55d3;
+}
+
+/* Pale Violet Red */
+.text-pale-violet-red {
+    color: #db7093;
+}
+
+/* Medium Blue */
+.text-medium-blue {
+    color: #0000cd;
+}
+
+/* Rosy Brown */
+.text-rosy-brown {
+    color: #bc8f8f;
+}
+
+/* Light Pink */
+.text-light-pink {
+    color: #ffb6c1;
+}
+
+/* Dark Turquoise */
+.text-dark-turquoise {
+    color: #00ced1;
+}
+
+/* Thistle */
+.text-thistle {
+    color: #d8bfd8;
+}
+
+/* Medium Spring Green */
+.text-medium-spring-green {
+    color: #00fa9a;
+}
+
+/* Deep Pink */
+.text-deep-pink {
+    color: #ff1493;
+}
+
+/* Dodger Blue */
+.text-dodger-blue {
+    color: #1e90ff;
+}
+
+/* Medium Slate Blue */
+.text-medium-slate-blue {
+    color: #7b68ee;
+}
+
+/* Pale Goldenrod */
+.text-pale-goldenrod {
+    color: #eee8aa;
+}
+
+/* Dark Orchid */
+.text-dark-orchid {
+    color: #9932cc;
+}
+
+/* Light Blue */
+.text-light-blue {
+    color: #add8e6;
+}
+
+/* Light Goldenrod Yellow */
+.text-light-goldenrod-yellow {
+    color: #fafad2;
+}
+
+/* Sea Green */
+.text-sea-green {
+    color: #2e8b57;
+}
+
+/* Light Slate Gray */
+.text-light-slate-gray {
+    color: #778899;
+}
+
+/* Lavender */
+.text-lavender {
+    color: #b78fcb;
+}
+
+/* Medium Aquamarine */
+.text-medium-aquamarine {
+    color: #66cdaa;
+}
+
+/* Light Steel Blue */
+.text-light-steel-blue {
+    color: #b0c4de;
+}
+
+/* Pale Turquoise */
+.text-pale-turquoise {
+    color: #afeeee;
+}
+
+/* Dark Salmon */
+.text-dark-salmon {
+    color: #e9967a;
+}
+
+/* Yellow Green */
+.text-yellow-green {
+    color: #9acd32;
+}
+
+/* Light Gray */
+.text-light-gray {
+    color: #d3d3d3;
+}
+
+/* Dark Sea Green */
+.text-dark-sea-green {
+    color: #8fbc8f;
+}
+
+/* Light Sky Blue */
+.text-light-sky-blue {
+    color: #87cefa;
+}

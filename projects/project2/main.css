@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(#281EFF, #2DFF8C);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+body h1 {
+  font-size: 160px;
+  font-family: "Satisfy", cursive;
+  color: #fff;
+}
+body h2, body p {
+  font-size: 32px;
+  font-family: "Varela Round", sans-serif;
+  color: #fff;
+}
+body p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+body form {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+body input[type=text], body label[type=text] {
+  display: block;
+  height: 30px;
+  width: 400px;
+  font-family: "Varela Round", sans-serif;
+  opacity: 0.4;
+}
+body label {
+  color: #fff;
+}
+body div {
+  float: right;
+  color: #fff;
+  margin-top: 5px;
+}
+body input[type=submit], body label[type=submit] {
+  background-color: #fff;
+  margin-top: 10px;
+  border: none;
+  height: 30px;
+  width: 200px;
+  align-self: center;
+}
+
+@media (max-width: 992px) {
+  body {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  body h1 {
+    font-size: 90px;
+  }
+  body h2, body p {
+    font-size: 30px;
+  }
+  body p {
+    font-size: 25px;
+    width: 800px;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  body h1 {
+    font-size: 60px;
+  }
+  body h2, body p {
+    font-size: 18px;
+  }
+  body p {
+    font-size: 16px;
+    width: 400px;
+  }
+}
+@media (max-width: 576px) {
+  body {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  body h1 {
+    font-size: 60px;
+  }
+  body h2, body p {
+    font-size: 18px;
+    inline-size: 200px;
+    text-align: right;
+  }
+  body p {
+    font-size: 16px;
+    inline-size: 70%;
+    text-align: right;
+  }
+  body input[type=text], body label[type=text] {
+    width: inherit;
+  }
+}/*# sourceMappingURL=main.css.map */

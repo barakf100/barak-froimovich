@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project main page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/colors.css">
+    <style>
+        Textarea {
+            resize: none;
+        }
+
+        @media (max-width:900px) {
+            .pro div {
+                width: 30vw !important;
+            }
+        }
+
+        @media (max-width:600px) {
+
+            .pro,
+            .kno {
+                flex-wrap: wrap;
+
+            }
+
+            .pro div {
+                width: 18rem !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- nav bar -->
+    <div class="container-fluid z-1 bg-turquoise d-flex justify-content-between" id="nav">
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#about">about</a>
+                        <a class="nav-link" href="#contact">contact</a>
+                        <a class="nav-link" href="#footer">footer</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar bg-$cyan">
+            <a class="navbar-brand" href="#">
+                <img src="images/me.jpg" class="rounded-circle" alt="barak froimovich" width="45"> barak
+                froimovich
+            </a>
+        </nav>
+    </div>
+
+    <!-- protfolio -->
+    <div class="container-fluid h-50 bg-turquoise d-flex justify-content-center flex-column">
+        <h1 class="lh-lg text-center ">portfolio</h1>
+        <p class="container-sm lh-sm p-3 text-center">welcome to my portfolio ! here you can find some of my projects
+        </p>
+    </div>
+
+    <!-- knowledge anchors -->
+    <div class="kno container-fluid h-auto d-flex justify-content-evenly bg-white my-2">
+
+        <a href="#bootstrap"><img src="images/img-Bootstrap.png" alt="bootstrap"></a>
+        <a href="#css"><img src="images/img-CSS.png" alt="css"></a>
+        <a href="#html"><img src="images/img-HTML.png" alt="html"></a>
+        <a href="#sass"><img src="images/img-SASS.png" alt="SASS"></a>
+        <a href="#js"><img src="./images/img-JS.png" alt="js"></a>
+    </div>
+
+    <!-- about -->
+    <div class="container-fluid h-50 bg-turquoise d-flex justify-content-center flex-column" id="about">
+        <h1 class="lh-lg text-center ">about me</h1>
+        <p class="container-sm lh-sm p-3 ">Hello, I'm Barak, a passionate learner currently enrolled in a Full Stack
+            development course. I hail from
+            Haifa. With a strong foundation in HTML,
+            CSS, and
+            JavaScript. My portfolio including projects that demonstrate my proficiency in creating dynamic and visually
+            appealing
+            web
+            applications. I am constantly seeking new challenges and opportunities to expand my skills, and I'm excited
+            to
+            contribute my expertise to the ever-evolving field of web development.</p>
+    </div>
+
+    <!-- projects -->
+    <h1 class="text-center">html-css projects</h1>
+    <div class="pro container-fluid d-flex justify-content-around pt-4">
+        <div class=" card rounded-5" id="bootstrap" style="width: 18rem;">
+            <img src="images/phoneX2.png" width="256px" height="285px" class="card-img-top rounded-top-5" alt="pr1 pic">
+            <div class="card-body">
+                <h5 class="card-title">project 1</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                <a href="projects/project1/projectName1goto.html" class="btn btn-primary">Project 1</a>
+            </div>
+        </div>
+        <div class="card rounded-5" style="width: 18rem;">
+            <img src="images/project2index.png" class="card-img-top rounded-top-5 " height="285px" alt="pr2 pic">
+            <div class="card-body">
+                <h5 class="card-title">project 2</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                <a href="projects/project2/projectName2goto.html" class="btn btn-primary">Project 2</a>
+            </div>
+        </div>
+        <div class="card rounded-5" id="css" style="width: 18rem;">
+            <img src="images/breadsmall.jpg" width="256px" height="285px" class=" card-img-top rounded-top-5"
+                alt="pr3 pic">
+            <div class="card-body">
+                <h5 class="card-title">project 3</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                <a href="projects/project3/projectName3goto.html" class="btn btn-primary">Project 3</a>
+            </div>
+        </div>
+    </div><br>
+    <div class="pro container-fluid d-flex justify-content-around">
+        <div class="card rounded-5" id="html" style="width: 18rem;">
+            <img src="images/Coffee.png" class="card-img-top rounded-top-5" height="285px" alt="pr4 pic">
+            <div class="card-body">
+                <h5 class="card-title">project 4</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                <a href="projects/project4/projectName4goto.html" class="btn btn-primary">Project 4</a>
+            </div>
+        </div>
+        <div class="card rounded-5" id="" style="width: 18rem;">
+            <img src="images/pr5-Sm.png" class="card-img-top rounded-top-5" height="285px" alt="pr5 pic">
+            <div class="card-body">
+                <h5 class="card-title">project 5</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                <a href="projects/project5/project5GoTo.html" class="btn btn-primary">Project 5</a>
+            </div>
+        </div>
+        <div class="card rounded-5 " id="sass" style="width: 18rem;">
+            <img src="images/deleviryBox.svg" class="card-img-top rounded-top-5" height="285px" alt="pr6 pic">
+            <div class="card-body">
+                <h5 class="card-title">project 6</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                <a href="projects/project6/project6GoTo.html" class="btn btn-primary">Project 6</a>
+            </div>
+        </div>
+    </div><br>
+    <hr class="bg-turquoise border-5 opacity-25">
+    <h1 id="js" class="text-center">js projects</h1>
+    <div class="pro container-fluid d-flex justify-content-around pt-4">
+        <div class=" card rounded-5" id="bootstrap" style="width: 18rem;">
+            <img src="./js-project/assets/pics/hangman.png" width="256px" height="285px"
+                class="card-img-top rounded-top-5" alt="pr1 pic">
+            <div class="card-body">
+                <h5 class="card-title">hangman</h5>
+                <p class="card-text">in hangman you have a secret word and you should try to guess letter by letter.</p>
+                <a href="./js-project/go-to-pages/hangman-goto.html" class="btn btn-primary">Project 1</a>
+            </div>
+        </div>
+        <div class="card rounded-5" style="width: 18rem;">
+            <img src="./js-project/assets/pics/math.jpg" class="card-img-top rounded-top-5 " height="285px"
+                alt="pr2 pic">
+            <div class="card-body">
+                <h5 class="card-title">math-game</h5>
+                <p class="card-text">come and test youe math skills!<br>just pop in choose numbers and excersice</p>
+                <a href="./js-project/go-to-pages/math-game-goto.html" class="btn btn-primary">Project 2</a>
+            </div>
+        </div>
+        <div class="card rounded-5" id="css" style="width: 18rem;">
+            <img src="./js-project/assets/pics/shop-list.jpg" width="256px" height="285px"
+                class=" card-img-top rounded-top-5" alt="pr3 pic">
+            <div class="card-body">
+                <h5 class="card-title">shop-list</h5>
+                <p class="card-text">here you make a shop list easy.<br> just jump in a go to the grocery store.</p>
+                <a href="./js-project/go-to-pages/shop-list-goto.html" class="btn btn-primary">Project 3</a>
+            </div>
+        </div>
+    </div><br>
+    <div class="pro container-fluid d-flex justify-content-around">
+        <div class="card rounded-5" id="html" style="width: 18rem;">
+            <img src="./js-project/assets/pics/snake.png" class="card-img-top rounded-top-5" height="285px"
+                alt="pr4 pic">
+            <div class="card-body">
+                <h5 class="card-title">snake</h5>
+                <p class="card-text">the classic game that everyone knows.<br>come inside and play</p>
+                <a href="./js-project/go-to-pages/snake-goto.html" class="btn btn-primary">Project 4</a>
+            </div>
+        </div>
+        <div class="card rounded-5" id="" style="width: 18rem;">
+            <img src="./js-project/assets/pics/tictactoe.jpg" class="card-img-top rounded-top-5" height="285px"
+                alt="pr5 pic">
+            <div class="card-body">
+                <h5 class="card-title">tic-tac-toe</h5>
+                <p class="card-text">another classic game! <br>
+                    come here and try to beat us in tic tac toe</p>
+                <a href="./js-project/go-to-pages/tic-tac-toe-goto.html" class="btn btn-primary">Project 5</a>
+            </div>
+        </div>
+        <div class="card rounded-5 " id="sass" style="width: 18rem;">
+            <img src="./js-project/assets/pics/war.jpg" class="card-img-top rounded-top-5" height="285px" alt="pr6 pic">
+            <div class="card-body">
+                <h5 class="card-title">war</h5>
+                <p class="card-text">war is a 2 player luck card<br>game
+                    come inside and try<br>to beat me </p>
+                <a href="./js-project/go-to-pages/war-goto.html" class="btn btn-primary">Project 6</a>
+            </div>
+        </div>
+    </div><br>
+
+    <!-- contact -->
+    <div class="container-fluid d-flex bg-teal p-4 justify-content-start" id="contact">
+        <form action="">
+            <div class="form-floating m-3">
+                <input type="name" class="form-control" id="floatingName" placeholder="full_name">
+                <label for="floatingName">full name</label>
+            </div>
+            <div class="form-floating m-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating m-3">
+                <input type="phone" class="form-control" id="floatingPhone" placeholder="0XX-XXX-XXXX">
+                <label for="floatingName">phone number</label>
+            </div>
+            <div class="m-3">
+                <textarea maxlength="100" placeholder="put your messege here" class="form-control" rows="4"
+                    id="Textarea" rows="5" cols="40"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary bg-white text-black border-0 my-0 mx-3">Submit</button>
+        </form>
+    </div>
+
+    <!-- footer -->
+    <nav class="navbar bg-teal">
+        <div class="container" id="footer">
+            <a class="navbar-brand" href="https://www.facebook.com/barak.froimobich" target="_blank"
+                rel="noopener noreferrer"><img src="images/Icon awesome-facebook-f.svg" alt="email" width="30"
+                    height="24">
+            </a>
+            <a class="navbar-brand" href="mailto: barakf100@gmail.com"><img src="images/Icon simple-email.svg"
+                    alt="email" width="30" height="24">
+            </a>
+            <a class="navbar-brand" href="tel:+972526493695"><img src="images/Icon simple-whatsapp-1.svg" alt="call"
+                    width="30" height="24"></a>
+            <a class="navbar-brand" href="https://www.linkedin.com/in/barak-froimovich-8163001b9" target="_blank"
+                rel="noopener noreferrer"><img src="images/Icon awesome-linkedin-in.svg" alt="linkdin" width="30"
+                    height="24"></a>
+            <a class="navbar-brand" href="https://wa.me/972526493695" target="_blank" rel="noopener noreferrer"><img
+                    src="images/Icon simple-whatsapp.svg" alt="whatsapp" width="30" height="24"></a>
+        </div>
+    </nav>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

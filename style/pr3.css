@@ -1,0 +1,101 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(161, 161, 161);
+            display: flex;
+            justify-content: space-between;
+        }
+
+
+        h1 {
+            color: #fff;
+            padding: 30px;
+            font-size: 5rem;
+        }
+
+        p {
+            color: #fff;
+            font-size: 1.5rem;
+            padding-left: 30px;
+        }
+
+        form {
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+        }
+
+        form input {
+            opacity: 0.3;
+            width: 30vw;
+            height: 2.5vh;
+        }
+
+        form label {
+            font-size: 1rem;
+            width: 30vw;
+        }
+
+        .btn,
+        .send {
+            color: #fff;
+            opacity: 0.7;
+            color: #000;
+            margin-top: 10px;
+        }
+
+        img {
+            height: 100vh;
+            width: 40vw;
+        }
+
+
+        @media (max-width:800px) {
+            body {
+                background-image: url(../images/breadsmall.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 100vh;
+            }
+
+            .container {
+                display: flex;
+                flex-direction: column;
+                align-self: center;
+            }
+
+            form {
+                width: 40vw;
+            }
+
+            p {
+                inline-size: 350px;
+            }
+
+            img {
+                display: none;
+            }
+        }
+
+        @media (max-width:430px) {
+            h1 {
+                font-size: 2.5rem;
+                text-align: center;
+            }
+
+            .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+            }
+
+            p {
+                font-size: 1.5rem;
+            }
+        }

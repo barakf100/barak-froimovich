@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#281EFF, #2DFF8C);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h1 {
+        font-size: 160px;
+        font-family: $Satisfy;
+        color: #fff;
+    }
+
+    h2 {
+        font-size: 32px;
+        font-family: $VarelaRound;
+        color: #fff;
+    }
+
+    p {
+        @extend h2;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    form {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    input[type="text"] {
+        display: block;
+        height: 30px;
+        width: 400px;
+        font-family: $VarelaRound;
+        opacity: 0.4;
+    }
+
+    label {
+        @extend input;
+        color: #fff;
+    }
+
+    div {
+        float: right;
+        color: #fff;
+        margin-top: 5px;
+    }
+
+    input[type="submit"] {
+        background-color: #fff;
+        margin-top: 10px;
+        border: none;
+        height: 30px;
+        width: 200px;
+        align-self: center;
+    }
+}
+
+@include desktop {
+    body {
+        display: flex;
+        justify-content: space-evenly;
+
+        h1 {
+            font-size: 90px;
+        }
+
+        h2 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 25px;
+            width: 800px;
+        }
+
+    }
+}
+
+@include tablet {
+    body {
+        display: flex;
+        justify-content: space-evenly;
+
+        h1 {
+            font-size: 60px;
+        }
+
+        h2 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 16px;
+            width: 400px;
+        }
+
+    }
+}
+
+@include mobile {
+    body {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+
+        h1 {
+            font-size: 60px;
+        }
+
+        h2 {
+            font-size: 18px;
+            inline-size: 200px;
+            text-align: right;
+        }
+
+        p {
+            font-size: 16px;
+            inline-size: 70%;
+            text-align: right;
+        }
+
+        input[type="text"] {
+            width: inherit
+        }
+    }
+}
