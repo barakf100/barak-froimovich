@@ -1,7 +1,7 @@
 # barak froimovich project
 
 **if you want to download all project i put 2 parts in the _zipped_ folder**<br>
-link to the project in [github](https://github.com/barakf100/haker-U-project.git)
+link to the project in [github](https://github.com/barakf100/barak-froimovich.git)
 
 this is my portfolio site.
 in the first page : 
